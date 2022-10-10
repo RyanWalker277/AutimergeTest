@@ -1,3 +1,4 @@
 # AutomergeTest
 
 test
+test2
