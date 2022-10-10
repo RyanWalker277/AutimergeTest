@@ -13,7 +13,7 @@ jobs:
         id: check_files
         uses: andstor/file-existence-action@v1
         with:
-          files: "package.json, LICENSE, README.md"
+          files: ".DS_Store"
 
       - name: File exists
         if: steps.check_files.outputs.files_exists == 'true'
